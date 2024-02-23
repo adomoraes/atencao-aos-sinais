@@ -1,48 +1,21 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/adomoraes/atencao-aos-sinais">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="250">
   </a>
 
 <h3 align="center">Campanha Câncer Renal, Atenção aos Sinais</h3>
 
   <p align="center">
-    O projeto Atenção aos Sinais é uma Single Page Application (SPA) desenvolvida para proporcionar uma experiência de usuário fluida e eficiente. Com um design responsivo e moderno, esta aplicação permite aos usuários realizar consultas informativas de consientização.
+    The "Attention to Signs" project is a Single Page Application (SPA) developed to provide a seamless and efficient user experience. With a responsive and modern design, this application allows users to perform informative awareness queries.
     <br />
-    <a href="https://github.com/adomoraes/atencao-aos-sinais"><strong>Explore the docs »</strong></a>
+    <a href="#"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://atencaoaossinais.com.br/">View Demo</a>
+    <a href="https://atencaoaossinais.com.br/" target="_blank" rel="nofollow">View Demo</a>
     ·
   </p>
 </div>
@@ -77,7 +50,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Eduardo Moraes - (https://www.linkedin.com/in/eduardo-moraes-939312143/) - adomoraes@gmail.com
+Eduardo Moraes <br /> [![LinkedIn][linkedin-shield]][linkedin-url] <br /> adomoraes@gmail.com
 
 Project Link: [https://github.com/adomoraes/atencao-aos-sinais](https://github.com/adomoraes/atencao-aos-sinais)
 
