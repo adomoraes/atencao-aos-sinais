@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  padding: 0;
+}
+
+.bg-primary{
+  background-color: rgb(214, 210, 207);
+}
+
+.bg-pink-700{
+  background-color: rgb(239, 68, 77);
+}
+
+.text-primary{
+  color: #282667;
+}
