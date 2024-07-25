@@ -1,13 +1,13 @@
-import { Fragment } from "react"
+import { Link, useLocation } from "react-router-dom"
 import { Disclosure, Menu, Transition } from "@headlessui/react"
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline"
 
 const navigation = [
-	{ name: "Home", href: "#", current: true },
-	{ name: "Câncer Renal", href: "#", current: false },
-	{ name: "Sintomas", href: "#", current: false },
-	{ name: "Diagnóstico", href: "#", current: false },
-	{ name: "Tratamento", href: "#", current: false },
+	{ name: "Home", href: "/" },
+	{ name: "Câncer Renal", href: "/post/1" },
+	{ name: "Sintomas", href: "/post/2" },
+	{ name: "Diagnóstico", href: "/post/3" },
+	{ name: "Tratamento", href: "/post/4" },
 ]
 
 function classNames(...classes) {
@@ -15,6 +15,8 @@ function classNames(...classes) {
 }
 
 export default function Header() {
+	const location = useLocation()
+
 	return (
 		<Disclosure as='nav' className='bg-primary'>
 			{({ open }) => (
@@ -22,7 +24,7 @@ export default function Header() {
 					<div className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-8'>
 						<div className='relative flex sm:h-18 md:h-40 items-center justify-between'>
 							<div className='absolute inset-y-0 left-0 flex items-center sm:hidden'>
-								{/* Mobile menu button*/}
+								{/* Mobile menu button */}
 								<Disclosure.Button className='relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white'>
 									<span className='absolute -inset-0.5' />
 									<span className='sr-only'>Open main menu</span>
@@ -43,22 +45,24 @@ export default function Header() {
 								</div>
 							</div>
 
-							<div class='flex justify-end'>
+							<div className='flex justify-end'>
 								<div className='hidden sm:ml-6 sm:block'>
 									<div className='flex space-x-4'>
 										{navigation.map((item) => (
-											<a
+											<Link
 												key={item.name}
-												href={item.href}
+												to={item.href}
 												className={classNames(
-													item.current
+													location.pathname === item.href
 														? "bg-pink-700 text-white"
 														: "text-primary hover:bg-gray-400 hover:text-white",
 													"rounded-md px-3 py-2 text-sm font-medium"
 												)}
-												aria-current={item.current ? "page" : undefined}>
+												aria-current={
+													location.pathname === item.href ? "page" : undefined
+												}>
 												{item.name}
-											</a>
+											</Link>
 										))}
 									</div>
 								</div>
@@ -71,15 +75,17 @@ export default function Header() {
 							{navigation.map((item) => (
 								<Disclosure.Button
 									key={item.name}
-									as='a'
-									href={item.href}
+									as={Link}
+									to={item.href}
 									className={classNames(
-										item.current
+										location.pathname === item.href
 											? "bg-pink-700 text-white"
 											: "text-primary hover:bg-gray-400 hover:text-white",
 										"block rounded-md px-3 py-2 text-base font-medium"
 									)}
-									aria-current={item.current ? "page" : undefined}>
+									aria-current={
+										location.pathname === item.href ? "page" : undefined
+									}>
 									{item.name}
 								</Disclosure.Button>
 							))}
