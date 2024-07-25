@@ -1,19 +1,8 @@
-import { useState } from 'react'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Hero from './components/Hero'
-import Container from './components/Container'
+import { RouterProvider } from "react-router-dom"
+import router from "./router"
 
 function App() {
-
-  return (
-    <>
-      <Header />
-      <Hero />
-      <Container />
-      <Footer />
-    </>
-  )
+	return <RouterProvider router={router} />
 }
 
 export default App
