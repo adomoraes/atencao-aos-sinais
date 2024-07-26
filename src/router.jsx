@@ -1,6 +1,4 @@
-import React from "react"
-import ReactDOM from "react-dom/client"
-import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import { createBrowserRouter } from "react-router-dom"
 import Home from "./components/Home"
 import Post from "./components/Post"
 
@@ -20,5 +18,4 @@ const router = createBrowserRouter(
 	}
 )
 
-const root = ReactDOM.createRoot(document.getElementById("root"))
-root.render(<App />)
+export default router
