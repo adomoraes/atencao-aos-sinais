@@ -1,3 +1,5 @@
+import React from "react"
+import ReactDOM from "react-dom/client"
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import Home from "./components/Home"
 import Post from "./components/Post"
@@ -14,7 +16,7 @@ const router = createBrowserRouter(
 		},
 	],
 	{
-		basename: "/atencao-aos-sinais",
+		basename: "/atencao-aos-sinais", // Substitua 'nome-do-repositorio' pelo nome do seu repositório GitHub
 	}
 )
 
@@ -22,4 +24,5 @@ function App() {
 	return <RouterProvider router={router} />
 }
 
-export default App
+const root = ReactDOM.createRoot(document.getElementById("root"))
+root.render(<App />)
