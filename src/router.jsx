@@ -17,3 +17,9 @@ const router = createBrowserRouter(
 		basename: "/atencao-aos-sinais",
 	}
 )
+
+function App() {
+	return <RouterProvider router={router} />
+}
+
+export default App
