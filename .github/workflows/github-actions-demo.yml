@@ -1,6 +1,6 @@
 name: Deploy via ftp
-      on: push
-      jobs:
+on: push
+jobs:
         deploy:
           name: Deploy
           runs-on: ubuntu-latest
