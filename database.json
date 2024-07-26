@@ -1,0 +1,28 @@
+{
+	"posts": {
+		"1": {
+			"title": "O que é?",
+			"content": "<p class='mt-2'>Os rins são alguns dos principais órgãos do corpo humano, responsáveis por filtrar e expelir, por meio da urina, as toxinas prejudiciais ao organismo, como amônia, ureia e ácido úrico, além de eliminar os excessos de água, sódio, potássio, cálcio, magnésio, fósforo, bicarbonato e outros.</p><p class='mt-2'>Também é dos rins o papel de auxiliar na produção de hemoglobina, proteína que permite o transporte de oxigênio pelo sistema circulatório. Os rins estão localizados habitualmente ao lado da coluna vertebral na região lombar em um espaço do corpo que se chama retroperitônio. São compostos por milhões de pequenas estruturas funcionais chamadas de néfrons.<sup><sup>[1]</sup></span></p><p class='mt-2'>Quando ocorre uma transformação das células que formam os néfrons em células anormais, que crescem de forma maneira acelerada e desordenada, surge o câncer.<sup><sup>[2]</sup></span></p><p class='mt-2'>Doença silenciosa, o câncer renal é um dos principais tipos de tumor no sexo masculino, sendo mais comum entre 50 e 70 anos de idade. A doença está relacionada principalmente ao tabagismo, à obesidade e à hipertensão arterial.<sup>[3]</sup></p>",
+			"excerpt": "<p class='mt-2'>Doença silenciosa, o câncer renal é um dos principais tipos de tumor entre os homens entre 50 e 70 anos de idade. A doença está relacionada principalmente ao tabagismo, à obesidade e à hipertensão arterial. <sup>[3]</sup></p><p class='mt-2'>No Brasil, dados do Instituto Nacional de Câncer (INCA) mostram que a incidência estimada de câncer renal é de 7 a 10 casos para cada 100 mil habitantes.<sup>[4]</sup></p>",
+			"image": "/assets/contentImageOquee.png"
+		},
+		"2": {
+			"title": "Sintomas",
+			"content": "<p class='mt-2'>É fundamental estar atento aos sintomas que, embora inespecíficos e muitas vezes confundidos com sinais de outras doença, são alertas muito importantes. <sup>[7]</sup></p><p class='mt-2'>A dor na região lombar apenas em um dos lados, a presença de sangue na urina, dor ao urinar, massa (caroço) na lateral ou na parte inferior das costas, fadiga, perda de apetite, perda de peso sem dieta, febre e anemia são sinais de câncer renal. Por essa razão, não podem ser ignorados e um médico deve ser procurado. <sup>[7]</sup></p>",
+			"excerpt": "<p class='mt-2'>Éfundamental estar atento aos sintomas que, embora inespecíficos e muitas vezes confundidos com sinais de outras doença, são alertas muito importantes. <sup>[7]</sup></p>",
+			"image": "/assets/contentImageOquee.png"
+		},
+		"3": {
+			"title": "Diagnóstico",
+			"content": "<p class='mt-2'>Exames de sangue e urina, como ureia e creatinina, são fundamentais para avaliar a saúde dos rins e no diagnóstico do câncer renal. Alterações nos índices dessas substâncias podem indicar algum problema renal. Em caso de suspeita, outros exames devem ser solicitados pelo médico.<sup>[8]</sup></p><p class='mt-2'>Entre os principais exames para avaliar as suspeitas de câncer renal estão a ultrassonografia, a tomografia computadorizada e a ressonância magnética. <sup>[8]</sup></p>",
+			"excerpt": "<p class='mt-2'>Os rins são alguns dos principais órgãos do corpo humano, responsáveis por filtrar e expelir, por meio da urina, as toxinas prejudiciais ao organismo, como amônia, ureia e ácido úrico, além de eliminar os excessos de água, sódio, potássio, cálcio, magnésio, fósforo, bicarbonato e outros.</p>",
+			"image": "/assets/contentImageSintomas.png"
+		},
+		"4": {
+			"title": "Tratamento",
+			"content": "<p class='mt-2'>Em casos iniciais, o tratamento do câncer renal costuma ser a remoção do órgão por cirurgia. No entanto, se o tumor se espalhou para além do rim, tratamentos adicionais podem ser recomendados, incluindo radioterapia, terapias-alvo e imunoterapia.<sup>[10]</sup>,<sup>[11]</sup>,<sup>[12]</sup></p><p class='mt-2'>A jornada do paciente dependerá de quando o câncer for descoberto. O paciente com câncer de rim tem grandes chances de sobrevida alta se diagnosticado no estágio inicial. Quando o carcinoma de células renais está em metástase ou em estágio avançado, a taxa de sobrevida fica em torno de 12%.<sup>[2]</sup>,<sup>[9]</sup>,<sup>[10]</sup>,<sup>[11]</sup></p>",
+			"excerpt": "<p class='mt-2'>Os rins são alguns dos principais órgãos do corpo humano, responsáveis por filtrar e expelir, por meio da urina, as toxinas prejudiciais ao organismo, como amônia, ureia e ácido úrico, além de eliminar os excessos de água, sódio, potássio, cálcio, magnésio, fósforo, bicarbonato e outros.</p>",
+			"image": "/assets/contentImageDiagnostico.png"
+		}
+	}
+}
