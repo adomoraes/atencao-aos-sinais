@@ -32,7 +32,7 @@ export default function Post() {
 				<div className='md:shrink-0'>
 					<img
 						className='h-full w-full object-cover md:h-full md:w-full'
-						src={post.image}
+						src={`/atencao-aos-sinais/${post.image}`}
 						alt='Modern building architecture'
 					/>
 				</div>
