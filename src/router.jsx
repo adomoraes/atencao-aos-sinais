@@ -14,7 +14,7 @@ const router = createBrowserRouter(
 		},
 	],
 	{
-		basename: "/atencao-aos-sinais", // Substitua 'nome-do-repositorio' pelo nome do seu repositório GitHub
+		basename: "/atencao-aos-sinais/",
 	}
 )
 
