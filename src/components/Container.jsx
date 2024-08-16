@@ -31,7 +31,7 @@ export default function Container() {
 					<div className={`md:shrink-0 ${orders[index % orders.length].image}`}>
 						<img
 							className='h-full w-full object-cover md:h-full md:w-full'
-							src={`/atencao-aos-sinais/${post[key].image}`}
+							src={`/atencao-aos-sinais/${posts[key].image}`}
 							alt={posts[key].title}
 						/>
 					</div>
