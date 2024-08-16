@@ -41,7 +41,7 @@ export default function Container() {
 						</div>
 						<div dangerouslySetInnerHTML={{ __html: posts[key].excerpt }} />
 						<a
-							href={`/post/${key}`}
+							href={`./post/${key}`}
 							title='Saiba Mais'
 							className='p-2 mt-3 block w-max uppercase text-md tracking-wide text-white bg-pink-700 font-semibold hover:underline'>
 							Saiba Mais
