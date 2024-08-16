@@ -39,7 +39,7 @@ export default function Header() {
 								<div className='flex flex-shrink-0 items-center'>
 									<img
 										className='h-24 p-4 md:h-40 w-auto'
-										src='/assets/logo.png'
+										src='./assets/logo.png'
 										alt='Atenção Aos Sinais'
 									/>
 								</div>
